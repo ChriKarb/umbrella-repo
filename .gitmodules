@@ -1,0 +1,3 @@
+[submodule "helm/semantic-versioning"]
+	path = helm/semantic-versioning
+	url = https://github.com/ChriKarb/semantic-versioning.git

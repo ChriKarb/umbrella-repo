@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "git-submodules" # Specify that you want to update Git submodules
+    directory: "/helm" # Location of the submodules in your repository
+    schedule:
+      interval: "daily" # How often to check for updates
+#    ignore:
+#      - dependency-name: "excluded-submodule" # Optional: Ignore specific submodules
+#        versions: ["1.x.x"] # Optional: Ignore specific versions
+
+#This configuration tells Dependabot to check your Git submodules daily and update them as needed.
