@@ -2,7 +2,7 @@ version: 2
 
 updates:
   - package-ecosystem: gitsubmodule # Specify that you want to update Git submodules
-    directory: /helm # Location of the submodules in your repository
+    directory: / # Location of the submodules in your repository
     schedule:
       interval: "daily" # How often to check for updates
 #    ignore:
